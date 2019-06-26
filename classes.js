@@ -73,7 +73,7 @@ class Manager extends Employee {
   fire(index){
     this.reports.splice(index, 1);
   }
-
+}
 ////////// PROBLEM 3 //////////
 
 /*
@@ -100,7 +100,7 @@ class Manager extends Employee {
 class ProgressiveManager extends Manager {
   constructor(first_name, last_name, email, age, reports, title, bonus) {  
     super(first_name, last_name, email, age, reports);
-    this.title = 'Not a manager'
+    this.title = 'Not a manager';
     this.bonus = 0;
   }  
   hire(employee){
@@ -125,6 +125,7 @@ class ProgressiveManager extends Manager {
   }
 }
 
+//prior attempt
   // makeWidget = () => this.first_name + " " +this.last_name + " Widget";
   // hire = employee => this.reports.push(employee);
   // fire = index => this.reports.splice(index, 1)
@@ -178,5 +179,3 @@ class ProgressiveManager extends Manager {
 */
 
 //Code Here
-
-
