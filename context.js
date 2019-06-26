@@ -21,6 +21,13 @@
 
 //Code Here
 
+let user = {
+  username: "danhong13",
+  email: "email@gmail.com",
+  getUsername(){
+    return this.username
+  }
+};
 
 
 ////////// PROBLEM 2 //////////
@@ -43,7 +50,7 @@ class Animal {
 
 //Code Here
 
-
+let animal1 = new Animal("Pikachu", "PKMN", "???")
 
 ////////// PROBLEM 3 //////////
 
